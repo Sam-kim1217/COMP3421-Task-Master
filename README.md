@@ -134,16 +134,13 @@ Check MariaDB service status: sudo systemctl status bitnami.mariadb
 
 File Permissions:
 
-bash
-sudo chmod 644 /var/www/html/*
-sudo chmod 755 /var/www/html/includes
+        bash
+        sudo chmod 644 /var/www/html/*
+        sudo chmod 755 /var/www/html/includes
 Error Logs:
 
         bash
         tail -f /var/log/apache2/error.log
-
-## 📜 License
-MIT License - See LICENSE file
 
 Inspired by Vercel PHP Example - Adapted for Amazon Lightsail deployment
 Database credentials shown are for demonstration - always use secure credentials in production
