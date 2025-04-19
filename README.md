@@ -37,7 +37,7 @@ A full-featured task management system with user authentication, CRUD operations
    sudo systemctl start bitnami.mariadb //Start DB
    cat /home/bitnami/bitnami_application_password //Get your DB password
    sudo /opt/bitnami/mysql/bin/mysql -u root -p //Access to DB
-Step 2: Database Setup
+### Step 2: Database Setup
 Connect to MariaDB:
 
         ```bash
@@ -45,10 +45,10 @@ Connect to MariaDB:
         sudo /opt/bitnami/mysql/bin/mysql -u root -p //Access to DB
         Create database and user:
 
-In SQL:
+Creat User:
 
         sql
-        CREATE USER 'php_user'@'localhost' IDENTIFIED BY 'your_password'; //Creat User
+        CREATE USER 'php_user'@'localhost' IDENTIFIED BY 'your_password';
         GRANT ALL PRIVILEGES ON task_manager.* TO 'php_user'@'localhost'; // Get PRIVILEGES
         FLUSH PRIVILEGES;
         EXIT;
@@ -81,18 +81,19 @@ Create Table
           status ENUM('pending', 'completed') DEFAULT 'pending'
         );
 
-Step 3: Configure Permissions
+### Step 3: Configure Permissions
 
         bash
         sudo chmod -R 755 /var/www/html
         sudo chown -R www-data:www-data /var/www/html
-⚙️ Configuration
+        
+## ⚙️ Configuration
 Edit includes/connection.php with your DB credentials
 
-🌐 Access Application
+## 🌐 Access Application
 Visit in your browser: http://your-instance-ip/
 
-🧪 Testing
+## 🧪 Testing
 Registration: Try creating new account
 
 Task Operations:
@@ -111,7 +112,7 @@ Verify CSRF protection
 
 Check session persistence
 
-🔒 Security Notes
+## 🔒 Security Notes
 Keep the DB password and SSH key Secure
 
 Change default database credentials
@@ -124,7 +125,7 @@ apache
 Options -Indexes
 php_flag display_errors off
 
-🚨 Troubleshooting
+## 🚨 Troubleshooting
 Database Connection Issues:
 
 Verify credentials in connection.php
@@ -141,7 +142,7 @@ Error Logs:
         bash
         tail -f /var/log/apache2/error.log
 
-📜 License
+## 📜 License
 MIT License - See LICENSE file
 
 Inspired by Vercel PHP Example - Adapted for Amazon Lightsail deployment
