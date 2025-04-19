@@ -1,0 +1,129 @@
+[17-Apr-2025 12:43:22 Europe/Berlin] Received request: Array
+(
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:43:22 Europe/Berlin] Empty task name received
+[17-Apr-2025 12:43:22 Europe/Berlin] Error in add_task.php: Task name is required
+[17-Apr-2025 12:43:26 Europe/Berlin] Received request: Array
+(
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:43:26 Europe/Berlin] Empty task name received
+[17-Apr-2025 12:43:26 Europe/Berlin] Error in add_task.php: Task name is required
+[17-Apr-2025 12:47:58 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:47:59 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:47:59 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:47:59 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:47:59 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:00 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:00 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:00 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:00 Europe/Berlin] Received request: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:01 Europe/Berlin] Received request: Array
+(
+    [task_name] => abcdasdas
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:02 Europe/Berlin] Received request: Array
+(
+    [task_name] => abcdasdas
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:02 Europe/Berlin] Received request: Array
+(
+    [task_name] => abcdasdas
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:48:03 Europe/Berlin] Received request: Array
+(
+    [task_name] => abcdasdas
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:52:14 Europe/Berlin] Raw POST data: 
+[17-Apr-2025 12:52:14 Europe/Berlin] Received POST: Array
+(
+    [task_name] => abcdasdas
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:52:14 Europe/Berlin] Task name after processing: "abcdasdas" (length: 9)
+[17-Apr-2025 12:52:44 Europe/Berlin] Raw POST data: 
+[17-Apr-2025 12:52:44 Europe/Berlin] Received POST: Array
+(
+    [task_name] => abc
+    [due_date] => 2025-04-18
+    [csrf_token] => c050a6627849a898973fecf6e5f94e046515a207266981cf1d722733498d1af1
+)
+
+[17-Apr-2025 12:52:44 Europe/Berlin] Task name after processing: "abc" (length: 3)
+[17-Apr-2025 18:04:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: 無法連線，因為目標電腦拒絕連線。 in C:\xampp\htdocs\COMP3421-task-manager\includes\connection.php:20
+Stack trace:
+#0 C:\xampp\htdocs\COMP3421-task-manager\includes\connection.php(20): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'task_db')
+#1 C:\xampp\htdocs\COMP3421-task-manager\index.php(6): include('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\COMP3421-task-manager\includes\connection.php on line 20
