@@ -2,7 +2,8 @@
 
 A full-featured task management system with user authentication, CRUD operations, and responsive UI.
 
-![image](https://github.com/user-attachments/assets/389ddfa3-c384-4364-bc5a-530c7926dbe6)
+![image](https://github.com/user-attachments/assets/0fab0951-195f-4448-862f-75fd8175c9ea)
+
 
 
 
