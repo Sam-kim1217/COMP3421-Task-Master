@@ -31,7 +31,7 @@ A full-featured task management system with user authentication, CRUD operations
 
 ### Step 1: Connect to Server
 1. **PuTTYgen**: Change .pem key into .ppk key
-2. **WinSCP**: Upload all project files to `/var/www/html`
+2. **WinSCP**: Upload all project files to `/opt/bitnami/apache/htdocs`
 3. **PuTTY**: SSH into your instance with your .ppk key:
    ```bash
    sudo systemctl start bitnami.mariadb //Start DB
@@ -80,6 +80,10 @@ Create Table
           due_date DATE,
           status ENUM('pending', 'completed') DEFAULT 'pending'
         );
+OR Import the .sql file
+
+        ```bash
+        mysql -u your_database_user -p your_database_name < /path/to/your/file.sql
 
 ### Step 3: Configure Permissions
 
